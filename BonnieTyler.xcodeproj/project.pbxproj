@@ -12,6 +12,8 @@
 		B7DE77B71C5A90C000558A90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7DE77B51C5A90C000558A90 /* Main.storyboard */; };
 		B7DE77B91C5A90C000558A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7DE77B81C5A90C000558A90 /* Assets.xcassets */; };
 		B7DE77BC1C5A90C000558A90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7DE77BA1C5A90C000558A90 /* LaunchScreen.storyboard */; };
+		B7DE77C81C5AA2A600558A90 /* BonnieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DE77C71C5AA2A600558A90 /* BonnieDetail.swift */; };
+		B7DE77CA1C5AB38D00558A90 /* BonTye.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DE77C91C5AB38D00558A90 /* BonTye.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B7DE77B81C5A90C000558A90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7DE77BB1C5A90C000558A90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7DE77BD1C5A90C000558A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7DE77C71C5AA2A600558A90 /* BonnieDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonnieDetail.swift; sourceTree = "<group>"; };
+		B7DE77C91C5AB38D00558A90 /* BonTye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonTye.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				B7DE77B81C5A90C000558A90 /* Assets.xcassets */,
 				B7DE77BA1C5A90C000558A90 /* LaunchScreen.storyboard */,
 				B7DE77BD1C5A90C000558A90 /* Info.plist */,
+				B7DE77C71C5AA2A600558A90 /* BonnieDetail.swift */,
+				B7DE77C91C5AB38D00558A90 /* BonTye.swift */,
 			);
 			path = BonnieTyler;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7DE77CA1C5AB38D00558A90 /* BonTye.swift in Sources */,
+				B7DE77C81C5AA2A600558A90 /* BonnieDetail.swift in Sources */,
 				B7DE77B41C5A90C000558A90 /* ViewController.swift in Sources */,
 				B7DE77B21C5A90C000558A90 /* AppDelegate.swift in Sources */,
 			);
